@@ -1,0 +1,67 @@
+.dashboard-container {
+  color: #c52828;
+  background: #c1d3f2; /* Dark grayish blue */
+  min-height: 107vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px; /* Increased padding */
+}
+
+.dashboard-title {
+  color: #fff7f7; /* Title color */
+  font-size: 36px;
+  margin-bottom: 50px; /* Increased margin bottom */
+}
+
+.nav-btn {
+  padding: 15px 30px; /* Increased padding */
+  margin: 15px; /* Increased margin */
+  font-size: 20px; /* Larger font size for buttons */
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background: #4a5568; /* Dark grayish blue */
+  text-decoration: none;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #2d3748; /* Even darker grayish blue */
+  box-shadow: 0 0 15px rgba(74, 85, 104, 0.75);
+}
+
+.logout-btn {
+  padding: 15px 30px; /* Increased padding */
+  margin-top: 30px; /* Increased margin top */
+  font-size: 18px; /* Larger font size for logout button */
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background: #e53e3e; /* Red color for logout button */
+  text-decoration: none;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.logout-btn {
+  padding: 10px 20px; /* Smaller padding */
+  margin-top: 70px; /* Move button to the bottom */
+  margin-bottom: 20px; /* Add additional margin at the bottom */
+  font-size: 16px; /* Smaller font size for logout button */
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background: #e53e3e; /* Red color for logout button */
+  text-decoration: none;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+
+.footer-text {
+  color: #fff; /* Footer text color */
+  margin-top: 50px; /* Increased margin top */
+}

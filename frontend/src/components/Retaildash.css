@@ -1,0 +1,56 @@
+/* Dashboard.css */
+.dashboard {
+    padding: 80px;
+    background-color: #bfc8da;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.dashboard-title {
+    color: #333;
+    margin-left: 20px; /* Added for alignment */
+}
+
+.logout-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #e53e3e;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    position: absolute;
+    right: 20px; /* Positioned to the top right */
+    top: 20px;
+}
+
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+}
